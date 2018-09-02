@@ -10,6 +10,8 @@ class BlogsController < ApplicationController
   # GET /blogs/1
   # GET /blogs/1.json
   def show
+    @page_title = @blog.title
+    @seo_keywords = @blog.body
   end
 
   # GET /blogs/new
@@ -62,7 +64,7 @@ class BlogsController < ApplicationController
     elsif @blog.published?
       @blog.draft!
     end
-     
+
     redirect_to blogs_url, notice: "Post status has been updated."
   end
 
