@@ -50,4 +50,8 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# Use friendly_id to generate slugs for blog posts
 gem 'friendly_id', '~> 5.2.0' # Note: You MUST use 5.0.0 or greater for Rails 4.0+
+
+# Use devise for authentication
+gem 'devise', '~> 4.2'
