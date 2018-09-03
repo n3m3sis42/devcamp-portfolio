@@ -56,4 +56,10 @@ gem 'friendly_id', '~> 5.2.0' # Note: You MUST use 5.0.0 or greater for Rails 4.
 # Use devise for authentication
 gem 'devise', '~> 4.2'
 
+# Use pry for debugging
 gem 'pry-byebug'
+
+# Use Bootstrap for styling
+gem 'bootstrap', '~> 4.1.3'
+# Use jquery-rails as needed for Bootstrap
+gem 'jquery-rails'
