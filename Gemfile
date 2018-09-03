@@ -64,5 +64,8 @@ gem 'bootstrap', '~> 4.1.3'
 # Use jquery-rails as needed for Bootstrap
 gem 'jquery-rails'
 
+# Use Petergate for authorization
+gem 'petergate', '~> 1.8'
+
 # Use my custom view methods gem to print copyright info
 gem 'view_tool_seven42', git: 'https://github.com/n3m3sis42/view_tool_seven42'
