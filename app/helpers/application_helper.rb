@@ -13,4 +13,8 @@ module ApplicationHelper
     greeting = "Thanks for visiting me from #{session[:source]}!"
     content_tag(:p, greeting, class: "source-greeting") if session[:source]
   end
+
+  def copyright_generator
+    ViewToolSeven42::Renderer.copyright 'Sarah Evans', 'All rights reserved'    
+  end
 end
