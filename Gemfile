@@ -55,3 +55,5 @@ gem 'friendly_id', '~> 5.2.0' # Note: You MUST use 5.0.0 or greater for Rails 4.
 
 # Use devise for authentication
 gem 'devise', '~> 4.2'
+
+gem 'pry-byebug'
