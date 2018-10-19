@@ -67,5 +67,11 @@ gem 'jquery-rails'
 # Use Petergate for authorization
 gem 'petergate', '~> 1.8'
 
+# font-awesome
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
+
+# Use kaminari for pagination
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
+
 # Use my custom view methods gem to print copyright info
 gem 'view_tool_seven42', git: 'https://github.com/n3m3sis42/view_tool_seven42'
